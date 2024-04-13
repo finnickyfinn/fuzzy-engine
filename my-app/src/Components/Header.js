@@ -2,7 +2,6 @@ import React from 'react';
 
 function Header() {
   return (
-    <div className="theme-synthwave">
       <div className="navbar bg-base-100">
         
         <div className="navbar-start">
@@ -43,7 +42,6 @@ function Header() {
           <a className="btn">Button</a>
         </div>
       </div>
-    </div>
   );
 }
 
