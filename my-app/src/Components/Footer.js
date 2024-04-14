@@ -26,6 +26,7 @@ function Footer(){
                 <h6 className="footer-title">Quick Links</h6> 
                 <Link className='hover:text-white' to ='/About'>About Us</Link>
                 <Link className='hover:text-white' to='/Services'>Services</Link>
+                <Link className='hover:text-white' to='/'>Home</Link>
             </nav> 
             <nav>
                 <h6 className="footer-title">Social</h6> 

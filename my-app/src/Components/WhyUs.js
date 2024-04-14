@@ -19,7 +19,6 @@ function WhyUs() {
                     <br></br>
                     <br></br>
                     At True U Wellness and MedSpa, we uphold a standard of utilizing only top-tier products and enlisting licensed estheticians with profound expertise in their craft. Our dedicated team is committed to delivering bespoke care and customized therapies, tailored precisely to fulfill the individual needs of every guest.</p>
-                    <button className="btn btn-primary"><Link to='/About'>Learn More</Link></button>
                 </div>
             </div>
         </div>
