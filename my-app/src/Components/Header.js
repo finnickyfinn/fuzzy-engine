@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <>
-    <div className="navbar bg-white">
+    <div className="navbar bg-zinc-50">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

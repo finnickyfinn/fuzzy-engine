@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom"
 import WelCarBg from '../Assets/WelCarBG.jpeg'
 import WelCaro1 from '../Assets/WelCaro1.jpeg'
 import WelCaro2 from '../Assets/WelCaro2.jpeg'
@@ -31,7 +32,7 @@ function WelcomeCarousel() {
               <div>
                 <h1 className="text-5xl font-bold">Take A Step In The True U Direction</h1>
                 <p className="py-6">Here At True U MedSpa, we believe that true beauty shines from within. Our mission is to empower individuals to embrace their unique selves and enhance their natural beauty through personalized aesthetic treatments and wellness solutions.</p>
-                <button className="btn btn-primary">Get Started</button>
+                <button className="btn btn-primary"><Link to='/Services'>Get Started</Link></button>
               </div>
             </div>
           </div>
