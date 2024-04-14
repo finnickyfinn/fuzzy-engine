@@ -34,7 +34,18 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">Body Contour</button>
+            {/* You can open the modal using document.getElementById('ID').showModal() method */}
+                <button className="btn" onClick={()=>document.getElementById('my_modal_1').showModal()}>Body Contour</button>
+                <dialog id="my_modal_1" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">Hi!</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>
@@ -44,7 +55,17 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">Laser Hair Removal</button>
+            <button className="btn" onClick={()=>document.getElementById('my_modal_2').showModal()}>Laser Hair Removal</button>
+                <dialog id="my_modal_2" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">Hello!</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>
@@ -54,7 +75,17 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">Skin Treatments</button>
+            <button className="btn" onClick={()=>document.getElementById('my_modal_3').showModal()}>Skin Treatment</button>
+                <dialog id="my_modal_3" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">What's Up!</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>
@@ -64,7 +95,17 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">Feminine Wellness</button>
+            <button className="btn" onClick={()=>document.getElementById('my_modal_4').showModal()}>Feminine Wellness</button>
+                <dialog id="my_modal_4" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">Oh!</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>
@@ -74,7 +115,17 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">IV Therapy</button>
+            <button className="btn" onClick={()=>document.getElementById('my_modal_5').showModal()}>IVTherapy</button>
+                <dialog id="my_modal_5" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">Welp!</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>
@@ -84,7 +135,17 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">True U Weight Loss</button>
+            <button className="btn" onClick={()=>document.getElementById('my_modal_6').showModal()}>True U Weight Loss</button>
+                <dialog id="my_modal_6" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">Howdy</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>
@@ -94,7 +155,17 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">Lab Exams</button>
+            <button className="btn" onClick={()=>document.getElementById('my_modal_7').showModal()}>Lab Exams</button>
+                <dialog id="my_modal_7" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">Shoot!</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>
@@ -104,7 +175,17 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">Injections</button>
+            <button className="btn" onClick={()=>document.getElementById('my_modal_8').showModal()}>Injections</button>
+                <dialog id="my_modal_8" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">Dang!</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>
@@ -114,7 +195,17 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">Skin Care</button>
+            <button className="btn" onClick={()=>document.getElementById('my_modal_9').showModal()}>Skin Care</button>
+                <dialog id="my_modal_9" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">Carp!</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>
@@ -124,7 +215,17 @@ function Services() {
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
-            <button className="btn btn-base">Wellness Weight Loss</button>
+            <button className="btn" onClick={()=>document.getElementById('my_modal_10').showModal()}>Wellness Weight Loss</button>
+                <dialog id="my_modal_10" className="modal">
+                    <div className="modal-box">
+                        <form method="dialog">
+                            {/* if there is a button in form, it will close the modal */}
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        </form>
+                        <h3 className="font-bold text-lg">Finally!</h3>
+                        <p className="py-4">Press ESC key or click on ✕ button to close</p>
+                    </div>
+                </dialog>
             </div>
         </div>
         </div>

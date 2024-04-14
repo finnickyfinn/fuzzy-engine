@@ -6,7 +6,8 @@ import MedStaff from '../Assets/MedStaff.jpeg'
 function WhyUs() {
   return (
     <>
-        <div className="hero h-5/6 bg-white">
+        
+        <div className="hero h-5/6 bg-white pb-10">
             <div className="hero-content flex-col lg:flex-row">
                 <img src={MedStaff} className="w-96 h-80 rounded-lg shadow-2xl" />
                 <div>

@@ -18,7 +18,8 @@ function WelcomeCarousel() {
   }, []);
 
   return (
-    <div className="carousel w-full relative overflow-hidden">
+    <>
+    <div className="carousel w-full relative pb-10 bg-white overflow-hidden">
       <div className="carousel-inner flex transition-transform duration-1000"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         <div id="slide1" className="carousel-item relative w-full">
@@ -68,6 +69,10 @@ function WelcomeCarousel() {
         </div>
       </div>
     </div>
+
+
+    </>
+    
   );
 }
 

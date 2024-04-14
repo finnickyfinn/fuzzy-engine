@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from "react-router-dom"
 import BaseTransFull from '../Assets/BaseTransFull.png'
-import ContactModal from './ContactModal.js'
+import ContactModal from '../Modals/ContactModal.js'
 
 
 
