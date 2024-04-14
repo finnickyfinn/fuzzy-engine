@@ -31,7 +31,7 @@ function Header() {
         <li><a>Contact Us</a></li>
       </ul>
     </div>
-    <div className="navbar-end">
+    <div className="navbar-end pr-5">
     <button className="btn btn-outline">Book Appointment</button>
     </div>
   </div>

@@ -1,8 +1,20 @@
 import React from 'react'
+import { Link } from "react-router-dom"
+
 
 function Footer(){
     return(
         <footer className="footer  p-10 bg-base-300 text-base-content">
+            <nav>
+                <h8 className='footer-title'>Contact Details</h8>
+                <a href="tel:+14074126080" className='hover:text-white pb-2'>407-412-6080</a>
+                <a href="mailto:Hello@trueumedspa.com" className='hover:text-white pb-2 '>Hello@trueumedspa.com</a>
+                <a href='https://www.google.com/maps/place/6735+Conroy+Windermere+Rd+STE+110,+Orlando,+FL+32835/@28.4938015,-81.475458,18z/data=!4m6!3m5!1s0x88e77f2a4860b975:0xc1d0e180b09fb267!8m2!3d28.4941884!4d-81.4744787!16s%2Fg%2F11gg6ctcfg?entry=ttu'  className='hover:text-white pb-2'>6735 Conroy Windermere rd suite 110 , Orlando fl 32835</a>
+                <a className='hover:text-white'>Mon-Fri: 10am-6pm</a>
+                <a className='hover:text-white'>Sat: Closed</a>
+                <a className='hover:text-white'>Sun: Closed</a>
+
+            </nav>
             <nav>
                 <h6 className="footer-title">Services</h6> 
                 <a className="link link-hover">Branding</a>
@@ -12,10 +24,8 @@ function Footer(){
             </nav> 
             <nav>
                 <h6 className="footer-title">Quick Links</h6> 
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
+                <Link className='hover:text-white' to ='/About'>About Us</Link>
+                <Link className='hover:text-white' to='/Contact'>Contact</Link>
             </nav> 
             <nav>
                 <h6 className="footer-title">Social</h6> 
