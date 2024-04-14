@@ -30,7 +30,7 @@ function Services() {
     <div class="grid bg-white py-4 px-24 grid-cols-3 gap-8">
         <div className="card flex-grow-0 hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={BodyCon} alt="Shoes" className="rounded-xl" />
+            <img src={BodyCon} alt="Body Contour" className="rounded-xl" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
@@ -40,7 +40,7 @@ function Services() {
         </div>
         <div className="card hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={Laser} alt="Shoes" className="rounded-xl" />
+            <img src={Laser} alt="Laser Hair Removal" className="rounded-xl" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
@@ -50,7 +50,7 @@ function Services() {
         </div>
         <div className="card hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={SkinTreat} alt="Shoes" className="rounded-xl w-72 h-52" />
+            <img src={SkinTreat} alt="Skin Treatments" className="rounded-xl w-72 h-52" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
@@ -60,7 +60,7 @@ function Services() {
         </div>
         <div className="card hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={FemWell} alt="Shoes" className="rounded-xl" />
+            <img src={FemWell} alt="Feminine Wellness" className="rounded-xl" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
@@ -70,7 +70,7 @@ function Services() {
         </div>
         <div className="card hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={IVTherapy} alt="Shoes" className="rounded-xl h-52" />
+            <img src={IVTherapy} alt="IV Therapy" className="rounded-xl h-52" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
@@ -80,7 +80,7 @@ function Services() {
         </div>
         <div className="card hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={TruUU} alt="Shoes" className="rounded-xl" />
+            <img src={TruUU} alt="True U Weight Loss" className="rounded-xl" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
@@ -90,7 +90,7 @@ function Services() {
         </div>
         <div className="card hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={LabExam} alt="Shoes" className="rounded-xl h-52" />
+            <img src={LabExam} alt="Lab Exams" className="rounded-xl h-52" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
@@ -100,7 +100,7 @@ function Services() {
         </div>
         <div className="card hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={Inject} alt="Shoes" className="rounded-xl" />
+            <img src={Inject} alt="Injections" className="rounded-xl" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
@@ -110,7 +110,7 @@ function Services() {
         </div>
         <div className="card hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={SkinCare} alt="Shoes" className="rounded-xl" />
+            <img src={SkinCare} alt="Skin Care" className="rounded-xl" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
@@ -120,7 +120,7 @@ function Services() {
         </div>
         <div className="card hover:ring-2 ring-amber-800/50 w-96 bg-base-100 shadow-2xl">
             <figure className="px-10 pt-10">
-            <img src={WeightLoss} alt="Shoes" className="rounded-xl" />
+            <img src={WeightLoss} alt="Wellness Weight Loss" className="rounded-xl" />
             </figure>
         <div className="card-body flex-grow-0 items-center text-center">
             <div className="card-actions">
