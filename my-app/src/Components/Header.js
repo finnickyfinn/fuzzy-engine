@@ -1,11 +1,24 @@
 import React from 'react';
+import { useState } from 'react';
 import { Link } from "react-router-dom"
 import BaseTransFull from '../Assets/BaseTransFull.png'
+import ContactModal from './ContactModal.js'
 
 
 
 
 function Header() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
     <div className="navbar bg-white">
@@ -25,14 +38,15 @@ function Header() {
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
-      <li><Link to ='/'>Home</Link></li>
-        <li><Link to ='/About'>About Us</Link></li>
-        <li><Link to ='/Services'>Services</Link></li>
-        <li><a>Contact Us</a></li>
+      <li><Link className='hover:scale-110' to ='/'>Home</Link></li>
+        <li><Link className='hover:scale-110' to ='/About'>About Us</Link></li>
+        <li><Link className='hover:scale-110' to ='/Services'>Services</Link></li>
+        <li><a onClick={openModal} className=" hover:scale-110 rounded">Contact Us</a>
+        <ContactModal isOpen={isOpen} closeModal={closeModal} /></li>
       </ul>
     </div>
     <div className="navbar-end pr-5">
-    <button className="btn btn-outline">Book Appointment</button>
+    <button className="btn btn-outline hover:scale-110">Book Appointment</button>
     </div>
   </div>
   </>
